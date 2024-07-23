@@ -14,3 +14,8 @@ const b: number = 20
 console.log(a===b)
 console.log(a>b)
 console.log(a<=b)
+
+function add(a: number,b: number) {
+    return a+b
+}
+console.log(add(8,2))

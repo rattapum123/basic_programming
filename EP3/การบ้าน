@@ -1,0 +1,15 @@
+function bmi(height: number,weight: number) {
+	let score: number = weight / (height * height)
+	if (score < 18.50) {
+		return'ผอม'
+	} else if (score < 22.90) {
+		return'ปกติ'
+	} else if (score < 24.90) {
+		return'อวบ'
+	} else if (score < 29.90) {
+		return'อวบขึ้น'
+	} else {
+		return'อ้วน'
+	}
+}
+console.log(bmi(1.80,68) )

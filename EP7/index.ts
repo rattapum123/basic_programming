@@ -33,5 +33,12 @@ const me = {
     age: 600,
     phonenumber: '951357',
     gender: 'man',
-    
+    address: '00/01',
+    village: 341245654796,
+    Road: 'xxxxx',
+    district: 'xxxxx',
+    province: 'vvvvv',
+    postalcode: 12345,
+    mail: 'zzzzzzzz@gmail.com'
+
 }

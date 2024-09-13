@@ -482,4 +482,6 @@ const news = {
 				description: element.description,
 				source_id: element.source_id,
 				image_url: element.image_url,
-    console.log(newthaipbs)
+    })
+  })
+console.log(newthaipbs)
